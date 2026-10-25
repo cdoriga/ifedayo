@@ -3340,6 +3340,8 @@ var PARK = {};
     var b = document.createElement("button"); b.type = "button"; b.className = "app-btn"; b.textContent = T.btn; b.addEventListener("click", open);
     var nav = document.querySelector(".lang-sw"), doors = document.getElementById("doors");
     if (nav) nav.appendChild(b); else if (doors) doors.parentNode.insertBefore(b, doors.nextSibling); else document.body.insertBefore(b, document.body.firstChild);
+    var ob = document.getElementById("offline-btn");
+    if (ob) { var nb = ob.cloneNode(true); ob.parentNode.replaceChild(nb, ob); nb.addEventListener("click", open); }
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", mount); else mount();
 })();
