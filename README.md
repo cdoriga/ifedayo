@@ -55,7 +55,7 @@ Inside the book, the **📲 App and offline** button downloads the stories and v
 
 **Music:** the background music in the narrations is *Orí*, by **Oridipe**, who also created *Orí: Holder of the Heads*, a Yoruba Afrofantasy comic. See his work at [oridipe.com](https://www.oridipe.com/).
 
-**Voices:** Ìfẹ́dayọ̀'s voice is synthetic, generated with open-source text-to-speech models (Coqui XTTS for English, Piper for Italian and Portuguese).
+**Voices:** Ìfẹ́dayọ̀'s voice is synthetic, made with open-source text-to-speech models. In English she speaks with the *Chinenye* voice of [YarnGPT2](https://huggingface.co/saheedniyi/YarnGPT2), a Nigerian English model by Saheed Azeez, rendered with Coqui XTTS. In Italian and Portuguese she uses Piper voices.
 
 **Photos:** from Flickr, under Creative Commons licences. Thank you to every photographer.
 
