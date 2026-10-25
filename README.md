@@ -5,7 +5,7 @@
 <p align="center"><b>A free illustrated audio book for children, in English, Italian and Portuguese.</b><br>
 Ìfẹ́dayọ̀ e il tamburo delle storie · Ìfẹ́dayọ̀ e o Tambor das Histórias</p>
 
-<p align="center"><a href="https://cdoriga.github.io/ifedayo/"><b>▶ Open the book</b></a> · <a href="https://cdoriga.github.io/ifedayo/en.html">English</a> · <a href="https://cdoriga.github.io/ifedayo/it.html">Italiano</a> · <a href="https://cdoriga.github.io/ifedayo/pt.html">Português</a></p>
+<p align="center"><a href="https://cdoriga.github.io/ifedayo/"><b>▶ Open the book</b></a> · <a href="https://cdoriga.github.io/ifedayo/en.html">English</a> · <a href="https://cdoriga.github.io/ifedayo/it.html">Italiano</a> · <a href="https://cdoriga.github.io/ifedayo/pt.html">Português</a> · <a href="https://www.paypal.me/cdorigon">💛 Donate</a></p>
 
 Ìfẹ́dayọ̀ (say it *ee-feh-dah-yaw*) is the keeper of a drum that tells stories. She takes children on a trip through Portugal: the initiation well of Quinta da Regaleira, the Moorish castle and the Pena Palace in Sintra, the watermills of Azenhas do Mar, the walled town of Óbidos and its aqueduct, the giant waves of Nazaré, the rooster of Barcelos, the wind at Cabo da Roca and the wise African women of eighteenth-century Lisbon.
 
@@ -22,6 +22,8 @@ The book also gives children words for race and gender. In Lisbon, Ìfẹ́day�
 These moments sit inside stories about castles, waves and a roasted rooster, at the pace of a bedtime story, so a parent can pause, answer a question and carry on. For families, teachers and librarians, the book is a way into conversations about who gets to be the hero, who was remembered and who was left out.
 
 **The book is free. If it is useful to your family, school or library, please share the link: [cdoriga.github.io/ifedayo](https://cdoriga.github.io/ifedayo/)**
+
+💛 **Support the book:** if you'd like to help me keep making stories like this one, you can donate at [paypal.me/cdorigon](https://www.paypal.me/cdorigon).
 
 ## What is inside
 
@@ -92,11 +94,11 @@ Inside the book, the **📲 App and offline** button downloads the stories and v
 
 ## Em português
 
-A Ìfẹ́dayọ̀ nasceu em Minas Gerais e tem um nome iorubá, que junta as palavras amor (*ìfẹ́*) e alegria (*ayọ̀*). O tambor dela é parente do dùndún, o tambor falante iorubá. Neste livro é uma jovem negra quem guia, conta e sabe. As crianças conhecem as mulheres africanas que curavam em Lisboa e foram perseguidas, a cantora Joaquina Lapinha e as rainhas Amina e Nzinga, e recebem um desafio de detetive: procurar pessoas negras nos quadros e azulejos antigos, e perceber quando elas não aparecem. Tudo isso acontece dentro de histórias de castelos, ondas e um galo assado, no ritmo de uma história antes de dormir. O livro é gratuito: compartilhe com famílias, escolas e bibliotecas.
+A Ìfẹ́dayọ̀ nasceu em Minas Gerais e tem um nome iorubá, que junta as palavras amor (*ìfẹ́*) e alegria (*ayọ̀*). O tambor dela é parente do dùndún, o tambor falante iorubá. Neste livro é uma jovem negra quem guia, conta e sabe. As crianças conhecem as mulheres africanas que curavam em Lisboa e foram perseguidas, a cantora Joaquina Lapinha e as rainhas Amina e Nzinga, e recebem um desafio de detetive: procurar pessoas negras nos quadros e azulejos antigos, e perceber quando elas não aparecem. Tudo isso acontece dentro de histórias de castelos, ondas e um galo assado, no ritmo de uma história antes de dormir. O livro é gratuito: compartilhe com famílias, escolas e bibliotecas. Para apoiar: [paypal.me/cdorigon](https://www.paypal.me/cdorigon).
 
 ## In italiano
 
-Ìfẹ́dayọ̀ è nata nel Minas Gerais, in Brasile, e ha un nome yoruba che unisce le parole amore (*ìfẹ́*) e gioia (*ayọ̀*). Il suo tamburo è parente del dùndún, il tamburo parlante yoruba. In questo libro è una giovane donna nera a guidare, raccontare e sapere. I bambini incontrano le guaritrici africane perseguitate a Lisbona, la cantante Joaquina Lapinha e le regine Amina e Nzinga, e ricevono una sfida da detective: cercare persone nere nei quadri e negli azulejos antichi, e accorgersi di quando mancano. Tutto succede dentro storie di castelli, onde e un gallo arrosto, al ritmo di una storia della buonanotte. Il libro è gratuito: condividetelo con famiglie, scuole e biblioteche.
+Ìfẹ́dayọ̀ è nata nel Minas Gerais, in Brasile, e ha un nome yoruba che unisce le parole amore (*ìfẹ́*) e gioia (*ayọ̀*). Il suo tamburo è parente del dùndún, il tamburo parlante yoruba. In questo libro è una giovane donna nera a guidare, raccontare e sapere. I bambini incontrano le guaritrici africane perseguitate a Lisbona, la cantante Joaquina Lapinha e le regine Amina e Nzinga, e ricevono una sfida da detective: cercare persone nere nei quadri e negli azulejos antichi, e accorgersi di quando mancano. Tutto succede dentro storie di castelli, onde e un gallo arrosto, al ritmo di una storia della buonanotte. Il libro è gratuito: condividetelo con famiglie, scuole e biblioteche. Per sostenerlo: [paypal.me/cdorigon](https://www.paypal.me/cdorigon).
 
 ## Rights
 
