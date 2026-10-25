@@ -11,6 +11,18 @@
 
 Every story can be read or listened to, with a version for kids and one for grown-ups. Ìfẹ́dayọ̀ narrates all of it, over a soundtrack by the artist Oridipe.
 
+## Why Ìfẹ́dayọ̀
+
+Ìfẹ́dayọ̀ was born in Minas Gerais, in Brazil, and carries a Yoruba name that joins the words for love (*ìfẹ́*) and joy (*ayọ̀*). Her drum is a relative of the dùndún, the Yoruba talking drum, which copies the rising and falling tones of the language. The crest children design uses adire and aso-oke, two Yoruba textiles, and the book tells how the Yoruba, called Nagô in Brazil, crossed the Atlantic together with the peoples of Congo and Angola.
+
+Yoruba culture travelled with enslaved Africans to Brazil, Cuba and beyond, and it lives on in music, food, words and religion. Portugal sat at the centre of that Atlantic trade, so a trip through Portugal is a fitting place to tell children where this culture came from and who carried it. In this book a young Black woman with braids and gold earrings is the guide, the narrator and the one who knows. Children who look like her see themselves holding the knowledge, and every child gets used to learning from her.
+
+The book also gives children words for race and gender. In Lisbon, Ìfẹ́dayọ̀ tells the story of African women healers who were persecuted about three hundred years ago for being Black, African and knowing so much, and she asks children to call out their names so they are remembered. Children meet Joaquina Lapinha, a Black singer born in Brazil who sang opera in Lisbon, and Queen Amina of Zazzau and Queen Nzinga, who ruled and led armies. A detective challenge asks them to look for Black people in old paintings and tiles, and to notice when they are missing. Ìfẹ́dayọ̀ herself has a lisp, and she sings anyway.
+
+These moments sit inside stories about castles, waves and a roasted rooster, at the pace of a bedtime story, so a parent can pause, answer a question and carry on. For families, teachers and librarians, the book is a way into conversations about who gets to be the hero, who was remembered and who was left out.
+
+**The book is free. If it is useful to your family, school or library, please share the link: [cdoriga.github.io/ifedayo](https://cdoriga.github.io/ifedayo/)**
+
 ## What is inside
 
 - Ten stories with photos of the real places, each narrated in three languages
@@ -77,6 +89,14 @@ Inside the book, the **📲 App and offline** button downloads the stories and v
 | Barcelos | [Turismo En Portugal](https://www.flickr.com/photos/turismoenportugal/8064543310/) | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) |
 | Barcelos | [Florencia&Pe](https://www.flickr.com/photos/boasorteecareca/3254453540/) | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) |
 | Barcelos | [Halley Oliveira](https://www.flickr.com/photos/halleyoliveira/31685293717/) | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/) |
+
+## Em português
+
+A Ìfẹ́dayọ̀ nasceu em Minas Gerais e tem um nome iorubá, que junta as palavras amor (*ìfẹ́*) e alegria (*ayọ̀*). O tambor dela é parente do dùndún, o tambor falante iorubá. Neste livro é uma jovem negra quem guia, conta e sabe. As crianças conhecem as mulheres africanas que curavam em Lisboa e foram perseguidas, a cantora Joaquina Lapinha e as rainhas Amina e Nzinga, e recebem um desafio de detetive: procurar pessoas negras nos quadros e azulejos antigos, e perceber quando elas não aparecem. Tudo isso acontece dentro de histórias de castelos, ondas e um galo assado, no ritmo de uma história antes de dormir. O livro é gratuito: compartilhe com famílias, escolas e bibliotecas.
+
+## In italiano
+
+Ìfẹ́dayọ̀ è nata nel Minas Gerais, in Brasile, e ha un nome yoruba che unisce le parole amore (*ìfẹ́*) e gioia (*ayọ̀*). Il suo tamburo è parente del dùndún, il tamburo parlante yoruba. In questo libro è una giovane donna nera a guidare, raccontare e sapere. I bambini incontrano le guaritrici africane perseguitate a Lisbona, la cantante Joaquina Lapinha e le regine Amina e Nzinga, e ricevono una sfida da detective: cercare persone nere nei quadri e negli azulejos antichi, e accorgersi di quando mancano. Tutto succede dentro storie di castelli, onde e un gallo arrosto, al ritmo di una storia della buonanotte. Il libro è gratuito: condividetelo con famiglie, scuole e biblioteche.
 
 ## Rights
 
