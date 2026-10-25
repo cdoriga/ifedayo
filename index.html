@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#6e1f2b">
+<link rel="icon" href="icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Ìfẹ́dayọ̀">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="description" content="Ìfẹ́dayọ̀ and the Story Drum: a free illustrated audio book for children about Portugal (Sintra, Óbidos, Nazaré, Barcelos, Lisbon), in English, Italian and Portuguese.">
+<meta property="og:title" content="Ìfẹ́dayọ̀ and the Story Drum">
+<meta property="og:description" content="Stories, drums and journeys to listen to. English · Italiano · Português.">
+<meta property="og:image" content="https://cdoriga.github.io/ifedayo/img/ifedayo-tambor.webp">
+<style>
+.app-btn { font: 700 14px/1 "Noto Sans", system-ui, sans-serif; padding: 7px 14px; border-radius: 999px; border: 2px solid #8b3dff; background: #fffaf0; color: #2c2216; cursor: pointer; }
+.app-btn:focus-visible { outline: 3px solid #8b3dff; outline-offset: 2px; }
+.app-veil { position: fixed; inset: 0; z-index: 9999; background: rgba(44, 34, 22, 0.55); display: grid; place-items: center; padding: max(16px, env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) max(16px, env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); }
+.app-card { max-width: 440px; width: 100%; max-height: 100%; overflow: auto; background: #fffaf0; color: #2c2216; border-radius: 18px; border: 2px solid #c4ac74; padding: 18px 20px; font: 17px/1.5 "EB Garamond", Georgia, serif; box-shadow: 0 20px 50px -20px rgba(0,0,0,0.6); }
+.app-card h3 { margin: 0 0 8px; font: 700 22px/1.2 "Almendra", Georgia, serif; color: #6e1f2b; }
+.app-card h4 { margin: 16px 0 6px; font: 800 15px/1.3 "Noto Sans", system-ui, sans-serif; color: #6e1f2b; }
+.app-card p { margin: 0 0 8px; }
+.app-card .row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-top: 6px; }
+.app-card button { font: 700 15px/1 "Noto Sans", system-ui, sans-serif; padding: 10px 16px; border-radius: 999px; border: 2px solid #6e1f2b; background: #6e1f2b; color: #f6efdf; cursor: pointer; }
+.app-card button.ghost { background: transparent; color: #6e1f2b; }
+.app-card progress { width: 100%; height: 10px; accent-color: #8b3dff; }
+.app-card .msg { font-weight: 600; color: #6e1f2b; min-height: 1.4em; }
+</style>
+</head>
+<body>
+<title>Ìfẹ́dayọ̀ and the Story Drum</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Almendra:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Noto+Sans:wght@700;800&display=swap">
+<style>
+/* Layout: a single parchment page, the guide's portrait on top, three language doors stacked like book spines. One look, the book's own. */
+:root {
+  --bg: #f6efdf; --surface: #fffaf0; --ink: #2c2216; --muted: #6b5a42; --vinho: #6e1f2b; --line: #c4ac74;
+  --pop: linear-gradient(90deg, #ff3d9a 0%, #8b3dff 52%, #19c3ff 100%);
+  --f-head: "Almendra", "EB Garamond", Georgia, serif; --f-body: "EB Garamond", Georgia, serif; --f-pop: "Noto Sans", "Segoe UI", sans-serif;
+  color-scheme: light;
+}
+body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 19px; line-height: 1.5; }
+.band { height: 10px; background: repeating-linear-gradient(90deg, #ffd36b 0 14px, #ff3d9a 14px 20px, #19c3ff 20px 36px, #8b3dff 36px 42px, #f6efdf 42px 48px); }
+main { max-width: 640px; margin: 0 auto; padding-block: 40px 56px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 28px; justify-items: center; text-align: center; }
+.face { width: 132px; height: 132px; border-radius: 50%; box-shadow: 0 0 0 4px var(--surface), 0 0 0 7px #8b3dff, 0 14px 30px -14px rgba(139, 61, 255, 0.7); }
+h1 { font-family: var(--f-head); font-weight: 700; font-size: clamp(34px, 8vw, 48px); line-height: 1.05; margin: 0; color: var(--vinho); text-wrap: balance; }
+.say { font-family: var(--f-pop); font-weight: 800; font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); margin: 6px 0 0; }
+.sub { font-family: var(--f-head); font-size: clamp(19px, 4.6vw, 24px); color: var(--vinho); margin: 4px 0 0; text-wrap: balance; }
+.lede { margin: 0; max-width: 34em; color: var(--ink); }
+.doors { display: grid; gap: 14px; width: 100%; }
+.door { display: grid; grid-template-columns: auto 1fr; gap: 4px 16px; align-items: center; text-align: left; text-decoration: none; color: var(--ink); background: var(--surface); border: 2px solid var(--line); border-radius: 16px; padding: 16px 20px; transition: transform 0.15s ease, border-color 0.15s ease; }
+.door:hover, .door:focus-visible { border-color: #8b3dff; transform: translateY(-2px); outline: none; }
+.door:focus-visible { box-shadow: 0 0 0 3px #8b3dff; }
+.code { grid-row: span 2; width: 52px; height: 52px; border-radius: 50%; display: grid; place-items: center; background: var(--pop); color: #fff; font-family: var(--f-pop); font-weight: 800; font-size: 17px; letter-spacing: 0.06em; }
+.name { font-family: var(--f-head); font-weight: 700; font-size: 26px; line-height: 1.1; color: var(--vinho); }
+.line { font-size: 17px; color: var(--muted); }
+.door.sugg { border-color: #8b3dff; }
+.ded { margin: 0; font-style: italic; color: #3a2a12; max-width: 34em; background: #ffd84d; border: 2px solid #e0a800; border-radius: 14px; padding: 12px 18px; box-shadow: 0 8px 20px -12px rgba(224, 168, 0, 0.9); }
+.ded b { font-style: normal; color: var(--vinho); }
+.cred { margin: -10px 0 0; font-size: 16px; color: var(--muted); max-width: 34em; }
+.cred b { color: var(--vinho); }
+.cred a { color: var(--vinho); text-underline-offset: 3px; }
+.note { font-size: 15px; color: var(--muted); margin: 0; max-width: 34em; }
+@media (prefers-reduced-motion: reduce) { .door { transition: none; } .door:hover { transform: none; } }
+</style>
+<div class="band" aria-hidden="true"></div>
+<main>
+  <img class="face" src="img/ifedayo-rosto.webp" width="320" height="320" alt="Ìfẹ́dayọ̀, a young Black woman with braids and gold rings, smiling">
+  <div>
+    <h1>Ìfẹ́dayọ̀</h1>
+    <p class="sub">and the Story Drum · e il tamburo delle storie · e o Tambor das Histórias</p>
+    <p class="say">ee-feh-dah-yaw · i-fè-da-iò · i-fé-da-ió</p>
+  </div>
+  <p class="lede">Stories, drums and journeys to listen to. · Storie, tamburo e viaggi da ascoltare. · Histórias, tambor e viagens para ouvir.</p>
+  <p class="ded">By · Di · De <b>Caio Bonamigo Dorigon</b><br>Written for · Scritta per · Escrita para <b>Catarina Odara</b>, a very special girl · una bambina molto speciale · uma menina muito especial</p>
+  <p class="cred">Music · Musica · Música: <b>Orí</b>, by · di · de <b>Oridipe</b>, <i>Orí: Holder of the Heads</i>. <a href="https://www.oridipe.com/" target="_blank" rel="noopener">oridipe.com</a></p>
+  <div class="doors" id="doors">
+    <a class="door" href="en.html" hreflang="en" lang="en"><span class="code" aria-hidden="true">EN</span><span class="name">English</span><span class="line">Ìfẹ́dayọ̀ and the Story Drum</span></a>
+    <a class="door" href="it.html" hreflang="it" lang="it"><span class="code" aria-hidden="true">IT</span><span class="name">Italiano</span><span class="line">Ìfẹ́dayọ̀ e il tamburo delle storie</span></a>
+    <a class="door" href="pt.html" hreflang="pt" lang="pt"><span class="code" aria-hidden="true">PT</span><span class="name">Português do Brasil</span><span class="line">Ìfẹ́dayọ̀ e o Tambor das Histórias</span></a>
+  </div>
+  <p class="note">You can switch language any time at the top of the page. · Puoi cambiare lingua in ogni momento dall'alto della pagina. · Dá para trocar de língua a qualquer momento no alto da página.</p>
+</main>
+<script>
+(function () {
+  var saved = null;
+  try { saved = localStorage.getItem("ife-lang"); } catch (e) {}
+  if (saved === "it" || saved === "en" || saved === "pt") { location.replace(saved + ".html"); return; }
+  var nav = (navigator.language || "").slice(0, 2);
+  var s = document.querySelector('.door[hreflang="' + nav + '"]');
+  if (s) s.classList.add("sugg");
+  document.getElementById("doors").addEventListener("click", function (e) {
+    var a = e.target.closest("a"); if (!a) return;
+    try { localStorage.setItem("ife-lang", a.getAttribute("hreflang")); } catch (x) {}
+  });
+})();
+</script>
+
+<script>
+(function () {
+  var C = {"t": {"btn": "📲 App and offline", "h": "Use the book like an app", "ios": "On iPhone or iPad: open this page in Safari, tap the Share button (the square with an arrow) and choose “Add to Home Screen”.", "and": "On Android or a computer: tap Install below, or open the browser menu (⋮) and choose “Install app” or “Add to Home screen”.", "inst": "Install", "already": "The book is installed as an app on this device.", "dh": "Listen without internet", "dp": "Downloads all the stories and voices in English (about {mb} MB). Use Wi-Fi.", "dl": "⬇ Download English", "prog": "Downloading… {p}%", "done": "Done! The book now works without internet in English.", "err": "The download stopped. Check the connection and try again.", "close": "Close"}, "mb": 81, "files": ["audio/en/brasao-conto.mp3", "audio/en/brasao-junto.mp3", "audio/en/curio-azulejo.mp3", "audio/en/curio-castanha.mp3", "audio/en/curio-cortica.mp3", "audio/en/curio-degraus.mp3", "audio/en/curio-eletrico.mp3", "audio/en/curio-estrela.mp3", "audio/en/curio-moinho.mp3", "audio/en/curio-morcegos.mp3", "audio/en/curio-roca.mp3", "audio/en/foto-escuro.mp3", "audio/en/foto-felicia.mp3", "audio/en/foto-filme.mp3", "audio/en/foto-florence.mp3", "audio/en/foto-graciela.mp3", "audio/en/foto-homai.mp3", "audio/en/foto-intro.mp3", "audio/en/foto-jogo.mp3", "audio/en/foto-licenca.mp3", "audio/en/foto-lita.mp3", "audio/en/foto-niepce.mp3", "audio/en/foto-noruega.mp3", "audio/en/foto-obturador.mp3", "audio/en/foto-pedaco.mp3", "audio/en/foto-unica.mp3", "audio/en/foto-vez.mp3", "audio/en/foto-vivian.mp3", "audio/en/intro-ifedayo.mp3", "audio/en/jogo-arco.mp3", "audio/en/musica-afrobeat.mp3", "audio/en/musica-asia.mp3", "audio/en/musica-brasil.mp3", "audio/en/musica-cumbia.mp3", "audio/en/musica-intro.mp3", "audio/en/musica-italia.mp3", "audio/en/musica-kpop.mp3", "audio/en/musica-latina.mp3", "audio/en/musica-opera.mp3", "audio/en/musica-paese.mp3", "audio/en/musica-respeito.mp3", "audio/en/pi-abaco.mp3", "audio/en/pi-duplas.mp3", "audio/en/pi-estrelas.mp3", "audio/en/pi-india.mp3", "audio/en/pi-khwarizmi.mp3", "audio/en/pi-romanos.mp3", "audio/en/pi-segredo.mp3", "audio/en/premio-a.mp3", "audio/en/princ-amina.mp3", "audio/en/princ-aqualtune.mp3", "audio/en/princ-congado.mp3", "audio/en/princ-joana.mp3", "audio/en/princ-kaguya.mp3", "audio/en/princ-kaiulani.mp3", "audio/en/princ-nzinga.mp3", "audio/en/princ-pyeonggang.mp3", "audio/en/princesas-intro.mp3", "audio/en/riddle-0-a.mp3", "audio/en/riddle-0-q.mp3", "audio/en/riddle-1-a.mp3", "audio/en/riddle-1-q.mp3", "audio/en/riddle-10-a.mp3", "audio/en/riddle-10-q.mp3", "audio/en/riddle-11-a.mp3", "audio/en/riddle-11-q.mp3", "audio/en/riddle-12-a.mp3", "audio/en/riddle-12-q.mp3", "audio/en/riddle-13-a.mp3", "audio/en/riddle-13-q.mp3", "audio/en/riddle-14-a.mp3", "audio/en/riddle-14-q.mp3", "audio/en/riddle-15-a.mp3", "audio/en/riddle-15-q.mp3", "audio/en/riddle-16-a.mp3", "audio/en/riddle-16-q.mp3", "audio/en/riddle-17-a.mp3", "audio/en/riddle-17-q.mp3", "audio/en/riddle-18-a.mp3", "audio/en/riddle-18-q.mp3", "audio/en/riddle-19-a.mp3", "audio/en/riddle-19-q.mp3", "audio/en/riddle-2-a.mp3", "audio/en/riddle-2-q.mp3", "audio/en/riddle-3-a.mp3", "audio/en/riddle-3-q.mp3", "audio/en/riddle-4-a.mp3", "audio/en/riddle-4-q.mp3", "audio/en/riddle-5-a.mp3", "audio/en/riddle-5-q.mp3", "audio/en/riddle-6-a.mp3", "audio/en/riddle-6-q.mp3", "audio/en/riddle-7-a.mp3", "audio/en/riddle-7-q.mp3", "audio/en/riddle-8-a.mp3", "audio/en/riddle-8-q.mp3", "audio/en/riddle-9-a.mp3", "audio/en/riddle-9-q.mp3", "audio/en/stop-azenhas.mp3", "audio/en/stop-barcelos.mp3", "audio/en/stop-macas.mp3", "audio/en/stop-mouros.mp3", "audio/en/stop-nazare.mp3", "audio/en/stop-obidos.mp3", "audio/en/stop-pena.mp3", "audio/en/stop-regaleira.mp3", "audio/en/story-st-arcos-adult.mp3", "audio/en/story-st-arcos-kid.mp3", "audio/en/story-st-azenhas-adult.mp3", "audio/en/story-st-azenhas-kid.mp3", "audio/en/story-st-galo-adult.mp3", "audio/en/story-st-galo-kid.mp3", "audio/en/story-st-lisboa-adult.mp3", "audio/en/story-st-lisboa-kid.mp3", "audio/en/story-st-mouros-adult.mp3", "audio/en/story-st-mouros-kid.mp3", "audio/en/story-st-nazare-adult.mp3", "audio/en/story-st-nazare-kid.mp3", "audio/en/story-st-obidos-adult.mp3", "audio/en/story-st-obidos-kid.mp3", "audio/en/story-st-pena-adult.mp3", "audio/en/story-st-pena-kid.mp3", "audio/en/story-st-regaleira-adult.mp3", "audio/en/story-st-regaleira-kid.mp3", "audio/en/story-st-roca-adult.mp3", "audio/en/story-st-roca-kid.mp3", "audio/en/tambor-mundo.mp3", "audio/en/tambor-porque.mp3", "audio/en/lines/cw.json", "audio/en/lines/cwd.json", "audio/en/lines/sg-galo.json", "audio/en/lines/sg-horta.json", "audio/en/lines/sg-mem.json", "audio/en/lines/sg-mill.json", "audio/en/lines/sg-pena.json", "audio/en/lines/sg-roca.json", "audio/en/lines/sg-wave.json", "audio/en/lines/sg-well.json", "audio/en/lines/sg-words.json"], "shell": ["./", "index.html", "en.html", "it.html", "pt.html", "manifest.webmanifest", "icon-180.png", "icon-192.png", "icon-512.png", "img/fotos/st-arcos-1.webp", "img/fotos/st-arcos-2.webp", "img/fotos/st-arcos-3.webp", "img/fotos/st-azenhas-1.webp", "img/fotos/st-azenhas-2.webp", "img/fotos/st-azenhas-3.webp", "img/fotos/st-galo-1.webp", "img/fotos/st-galo-2.webp", "img/fotos/st-galo-3.webp", "img/fotos/st-lisboa-1.webp", "img/fotos/st-lisboa-2.webp", "img/fotos/st-lisboa-3.webp", "img/fotos/st-mouros-1.webp", "img/fotos/st-mouros-2.webp", "img/fotos/st-mouros-3.webp", "img/fotos/st-nazare-1.webp", "img/fotos/st-nazare-2.webp", "img/fotos/st-nazare-3.webp", "img/fotos/st-obidos-1.webp", "img/fotos/st-obidos-2.webp", "img/fotos/st-obidos-3.webp", "img/fotos/st-pena-1.webp", "img/fotos/st-pena-2.webp", "img/fotos/st-pena-3.webp", "img/fotos/st-regaleira-1.webp", "img/fotos/st-regaleira-2.webp", "img/fotos/st-regaleira-3.webp", "img/fotos/st-roca-1.webp", "img/fotos/st-roca-2.webp", "img/fotos/st-roca-3.webp", "img/ifedayo-corpo.webp", "img/ifedayo-palco.webp", "img/ifedayo-princesa.webp", "img/ifedayo-rosto.webp", "img/ifedayo-sereia.webp", "img/ifedayo-tambor.webp", "img/ifedayo-teclado.webp"]}, T = C.t, deferred = null;
+  if ("serviceWorker" in navigator) window.addEventListener("load", function () { navigator.serviceWorker.register("sw.js").catch(function () {}); });
+  window.addEventListener("beforeinstallprompt", function (e) { e.preventDefault(); deferred = e; var b = document.getElementById("app-inst"); if (b) b.hidden = false; });
+  var standalone = (window.matchMedia && matchMedia("(display-mode: standalone)").matches) || navigator.standalone === true;
+  var ios = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+  function open() {
+    var v = document.createElement("div"); v.className = "app-veil"; v.setAttribute("role", "dialog"); v.setAttribute("aria-modal", "true"); v.setAttribute("aria-label", T.h);
+    v.innerHTML = '<div class="app-card"><h3>' + T.h + '</h3>' +
+      (standalone ? '<p>' + T.already + '</p>' : '<p>' + (ios ? T.ios : T.and) + '</p><div class="row"><button type="button" id="app-inst"' + (deferred ? '' : ' hidden') + '>' + T.inst + '</button></div>') +
+      '<h4>' + T.dh + '</h4><p>' + T.dp.replace("{mb}", C.mb) + '</p><div class="row"><button type="button" id="app-dl">' + T.dl + '</button></div><progress id="app-pr" max="100" value="0" hidden></progress><p class="msg" id="app-msg" aria-live="polite"></p>' +
+      '<div class="row" style="justify-content:flex-end"><button type="button" class="ghost" id="app-x">' + T.close + '</button></div></div>';
+    document.body.appendChild(v);
+    var x = v.querySelector("#app-x"); x.focus();
+    function shut() { v.remove(); document.removeEventListener("keydown", esc); }
+    function esc(e) { if (e.key === "Escape") shut(); }
+    document.addEventListener("keydown", esc);
+    x.addEventListener("click", shut); v.addEventListener("click", function (e) { if (e.target === v) shut(); });
+    var ib = v.querySelector("#app-inst"); if (ib) ib.addEventListener("click", function () { if (!deferred) return; deferred.prompt(); deferred.userChoice.finally(function () { deferred = null; ib.hidden = true; }); });
+    v.querySelector("#app-dl").addEventListener("click", function () { dl(v); });
+  }
+  function dl(v) {
+    var pr = v.querySelector("#app-pr"), msg = v.querySelector("#app-msg"), btn = v.querySelector("#app-dl");
+    if (!("caches" in window)) { msg.textContent = T.err; return; }
+    btn.disabled = true; pr.hidden = false;
+    var list = C.files.concat(C.shell), done = 0, i = 0, failed = false;
+    caches.open("ife-media").then(function (c) {
+      function next() {
+        if (i >= list.length) return Promise.resolve();
+        var u = list[i++];
+        return c.match(u).then(function (hit) { return hit || fetch(u).then(function (r) { if (!r.ok) throw new Error(u); return c.put(u, r); }); })
+          .then(function () { done++; pr.value = Math.round(done / list.length * 100); msg.textContent = T.prog.replace("{p}", pr.value); }, function () { failed = true; })
+          .then(next);
+      }
+      return Promise.all([next(), next(), next()]);
+    }).then(function () {
+      msg.textContent = failed ? T.err : T.done; btn.disabled = false;
+      if (navigator.storage && navigator.storage.persist) navigator.storage.persist().catch(function () {});
+    }, function () { msg.textContent = T.err; btn.disabled = false; });
+  }
+  function mount() {
+    var b = document.createElement("button"); b.type = "button"; b.className = "app-btn"; b.textContent = T.btn; b.addEventListener("click", open);
+    var nav = document.querySelector(".lang-sw"), doors = document.getElementById("doors");
+    if (nav) nav.appendChild(b); else if (doors) doors.parentNode.insertBefore(b, doors.nextSibling); else document.body.insertBefore(b, document.body.firstChild);
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", mount); else mount();
+})();
+</script>
+</body>
+</html>

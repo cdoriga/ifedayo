@@ -1,0 +1,28 @@
+{
+ "name": "Ìfẹ́dayọ̀ and the Story Drum",
+ "short_name": "Ìfẹ́dayọ̀",
+ "description": "Stories, drums and journeys to listen to, in English, Italian and Portuguese.",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#f6efdf",
+ "theme_color": "#6e1f2b",
+ "icons": [
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  },
+  {
+   "src": "icon-maskable.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}
