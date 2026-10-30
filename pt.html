@@ -1614,6 +1614,46 @@ body.modo-kid [data-parte]:not(.parte-on) { display: none !important; }
   </ul>
 </footer>
 
+<script>/*IDX*/
+(function () {
+  var IDX = {"viagem-medieval": {"after": "viagem-head", "t": {"pt": ["Escolhe por onde começar!", "Índice do capítulo 1"], "it": ["Scegli da dove cominciare!", "Indice del capitolo 1"], "en": ["Pick where to start!", "Chapter 1 contents"]}, "items": [["mapa", "🗺️", "O mapa", "La mappa", "The map"], ["st-roca", "🌅", "O fim da terra", "La fine della terra", "The end of the land"], ["st-regaleira", "🌀", "O poço misterioso", "Il pozzo misterioso", "The mystery well"], ["st-mouros", "🏰", "As mouras encantadas", "Le more incantate", "The enchanted mouras"], ["st-pena", "☁️", "O palácio nas nuvens", "Il palazzo tra le nuvole", "The cloud palace"], ["st-azenhas", "🌊", "Os moinhos do mar", "I mulini del mare", "The sea mills"], ["st-obidos", "👑", "A vila da rainha", "Il borgo della regina", "The queen's town"], ["st-arcos", "🌉", "A ponte da água", "Il ponte dell'acqua", "The water bridge"], ["st-nazare", "🦌", "O veado e a onda", "Il cervo e l'onda", "The deer and the wave"], ["st-lisboa", "🌿", "As feiticeiras", "Le guaritrici", "The wise women"], ["st-galo", "🐓", "O galo de Barcelos", "Il gallo di Barcelos", "The rooster of Barcelos"], ["charadas", "❓", "Charadas", "Indovinelli", "Riddles"], ["missao", "🏅", "A missão", "La missione", "The mission"], ["nossas-fotos", "📸", "As nossas fotos", "Le nostre foto", "Our photos"], ["roteiro", "🗓️", "O roteiro", "Il programma", "The plan"], ["antes", "🎒", "Antes de sair", "Prima di partire", "Before you go"]]}, "sempre": {"after": "sempre-head", "t": {"pt": ["Escolhe uma aventura!", "Sempre comigo: índice"], "it": ["Scegli un'avventura!", "Sempre con me: indice"], "en": ["Pick an adventure!", "Always with me: contents"]}, "items": [["brasao", "🛡️", "O meu brasão", "Il mio stemma", "My crest"], ["tambor", "🥁", "O tambor", "Il tamburo", "The drum"], ["musica", "🎶", "Música do mundo", "Musica dal mondo", "World music"], ["mus-opera", "🧜🏾‍♀️", "Sereias e ópera", "Sirene e opera", "Mermaids and opera"], ["princesas", "👸🏾", "Princesas", "Principesse", "Princesses"], ["parimpar", "✌️", "Par ou ímpar", "Pari o dispari", "Odds or evens"], ["fotografia", "📷", "Fotografia", "Fotografia", "Photography"], ["fj", "🎞️", "Jogo da Pentax", "Gioco della Pentax", "The Pentax game"]]}}, L = (document.documentElement.lang || "pt").slice(0, 2), LI = { pt: 2, it: 3, en: 4 }[L] || 2;
+  var tl = IDX["sempre"].t[L] ? L : "pt";
+  var st = document.createElement("style"); st.textContent = "\n.ix-ind { padding-top: 6px; padding-bottom: 6px; scroll-margin-top: 84px; }\n.ix-t { margin: 0 0 8px; font-family: var(--f-head); font-size: 20px; color: #8e1f55; }\n.ix-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(46%, 150px), 1fr)); gap: 8px; }\n.ix-a { display: flex; align-items: center; gap: 8px; padding: 9px 12px; border-radius: 14px; background: #fff; border: 2px solid #e6d3ff; color: #2c1a4d; text-decoration: none; font-weight: 600; font-size: 15px; line-height: 1.2; box-shadow: 0 3px 0 #e6d3ff; transition: transform 0.12s ease; }\n.ix-a:hover, .ix-a:focus-visible { transform: translateY(-2px); border-color: #ff3d9a; box-shadow: 0 5px 0 #ffb3d9; color: #2c1a4d; }\n.ix-a .e { font-size: 24px; line-height: 1; }\n.ix-fab { position: fixed; right: 14px; top: 92px; z-index: 25; padding: 10px 16px; border-radius: 999px; background: var(--pop, #ff3d9a); color: #fff; font-weight: 700; text-decoration: none; box-shadow: 0 6px 18px rgba(44, 26, 77, 0.35); border: 2px solid #fff; cursor: pointer; font-family: inherit; font-size: 16px; }\n.ix-fab:hover, .ix-fab:focus-visible { color: #fff; filter: brightness(1.08); }\nbody[data-parte-atual=\"piemonte\"]:not(.modo-adultos) .ix-fab { display: none; }\nbody.modo-adultos .c2-fab { display: none !important; }\n@media (max-width: 600px) { .ix-fab { top: 70px; right: 8px; padding: 7px 10px; font-size: 18px; } .ix-fab-t { display: none; } }\n@media (prefers-reduced-motion: reduce) { .ix-a { transition: none; } }\n"; document.head.appendChild(st);
+  function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;"); }
+  Object.keys(IDX).forEach(function (parte) {
+    var cfg = IDX[parte], head = document.getElementById(cfg.after); if (!head) return;
+    var links = cfg.items.map(function (it) {
+      return '<a class="ix-a" href="#' + it[0] + '"><span class="e" aria-hidden="true">' + it[1] + '</span><span>' + esc(it[LI]) + "</span></a>";
+    }).join("");
+    var nav = document.createElement("nav");
+    nav.className = "wrap ix-ind"; nav.id = "ix-" + parte; nav.dataset.parte = parte;
+    nav.setAttribute("aria-label", cfg.t[tl][1]);
+    nav.innerHTML = '<p class="ix-t"><span class="so-kid">' + esc(cfg.t[tl][0]) + '</span><span class="so-adultos">' + esc(cfg.t[tl][1]) + '</span></p><div class="ix-grid">' + links + "</div>";
+    head.parentNode.insertBefore(nav, head.nextSibling);
+  });
+  function ajusta() {
+    Array.prototype.forEach.call(document.querySelectorAll(".ix-a"), function (a) {
+      var el = document.getElementById(a.getAttribute("href").slice(1));
+      if (!el) { a.parentNode.removeChild(a); return; }
+      el.style.scrollMarginTop = "84px";
+      if (el.closest(".so-kid")) a.classList.add("so-kid"); else if (el.closest(".so-adultos")) a.classList.add("so-adultos");
+    });
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", ajusta); else ajusta();
+  var fab = document.createElement("button");
+  fab.type = "button"; fab.className = "ix-fab";
+  fab.innerHTML = '📖<span class="ix-fab-t"> ' + ({ pt: "Índice", it: "Indice", en: "Contents" }[L] || "Índice") + "</span>";
+  fab.setAttribute("aria-label", { pt: "Voltar ao índice", it: "Torna all'indice", en: "Back to contents" }[L] || "Voltar ao índice");
+  fab.addEventListener("click", function () {
+    var navs = Array.prototype.filter.call(document.querySelectorAll(".ix-ind, #c2-indice"), function (n) { return n.offsetParent !== null; });
+    if (!navs.length) return;
+    var alvo = navs[0];
+    navs.forEach(function (n) { if (n.getBoundingClientRect().top <= 120) alvo = n; });
+    alvo.scrollIntoView({ block: "start" });
+  });
+  document.body.appendChild(fab);
+})();
+</script>
 <script>
 /* Brasões: desenhos originais de animais e símbolos, em dois estilos (medieval e K-pop neon). */
 var BRASAO = (function () {
